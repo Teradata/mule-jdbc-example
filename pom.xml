@@ -27,8 +27,8 @@
 					<classifier>mule-application</classifier>
 					<sharedLibraries>
 						<sharedLibrary>
-							<groupId>com.teradata</groupId>
-							<artifactId>terajdbc4</artifactId>
+							<groupId>com.teradata.jdbc</groupId>
+							<artifactId>terajdbc</artifactId>
 						</sharedLibrary>
 					</sharedLibraries>
 				</configuration>
@@ -88,9 +88,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.teradata</groupId>
-			<artifactId>terajdbc4</artifactId>
-			<version>17.10.00.24</version>			
+			<groupId>com.teradata.jdbc</groupId>
+			<artifactId>terajdbc</artifactId>
+			<version>20.00.00.06</version>			
 		</dependency>
 	</dependencies>
 	<repositories>
